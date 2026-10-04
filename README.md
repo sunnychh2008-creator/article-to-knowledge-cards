@@ -1,4 +1,6 @@
-# make-knowledge-cards
+# article-to-knowledge-cards
+
+> Skill 标识：`make-knowledge-cards`（安装与调用时使用这个名字）
 
 把一篇文章或本地 Markdown/TXT 文件，压缩成 5~8 张能记住、能复习的知识卡片。
 
@@ -162,10 +164,10 @@ cp -r skills/make-knowledge-cards .workbuddy/skills/
 ## 项目结构
 
 ```
-make-knowledge-cards/
+article-to-knowledge-cards/          # 仓库名
 ├── LICENSE
 ├── README.md
-├── skills/make-knowledge-cards/
+├── skills/make-knowledge-cards/     # Skill 目录名（调用时用这个）
 │   ├── SKILL.md              # Skill 定义与完整规则（约 220 行）
 │   └── agents/openai.yaml    # 界面显示名与默认提示词
 └── tests/
