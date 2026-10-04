@@ -1,0 +1,7 @@
+interface:
+  display_name: "知识卡片生成"
+  short_description: "把文章或本地 md/txt 提炼成 5~8 张知识卡片"
+  default_prompt: "Use $make-knowledge-cards to turn the article or file I provide into 5-8 knowledge cards, keeping only the important knowledge and never adding anything that isn't in the source."
+
+policy:
+  allow_implicit_invocation: true
